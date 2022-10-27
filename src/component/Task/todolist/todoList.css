@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(194, 92, 92);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    z-index: 1;
+}
+
+.user {
+    display: flex;
+}
+
+.username {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.h3 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.btn-out {  
+   width: 70px;
+   height: 30px;
+   background-color: red;
+   border-radius: 3px;
+   border: 1px solid rgb(170, 161, 161);
+   color: white;
+}
+
+.btn-out:hover {
+    background-color: rgb(136, 44, 120);
+}
+
+.todoList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoList_input {
+    width: 300px;
+    height: 10px;
+}
+
+.todoList_select {
+    width: 333px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+.button_add {
+    position: relative;
+    left: 130px;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid rebeccapurple;
+}
+
+.button_add:active {
+    background-color: #2f213d;
+}
+
+.button_add:hover {
+    background-color: rgb(119, 103, 135);
+}
+
+.Items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    margin-top: -20px;
+}
+
+.categories_item {
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.p_item {
+    margin-left: 10px;
+}
+
+.show-items {
+    display: block;
+    background-color: rgba(236, 230, 230, 0.739);
+    margin-top: 70px;
+    width: 333px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 150px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.button {
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 3px;
+    margin-top: 35px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid rebeccapurple;
+    margin-right: 20px;
+}
+
+.button:active {
+    background-color: #2f213d;
+}
+
+.button:hover {
+    background-color: rgb(119, 103, 135);
+}
+
+.show-status {
+    display: flex;
+}
+
+.status_item {
+    margin: 0;
+    margin-left: 10px;
+}
